@@ -25,7 +25,7 @@ In this task you will need to implement an Agent with classical Tool use patten 
 
 1. Implement all TODO blocks in [http_mcp_client](agent/clients/http_mcp_client.py)
 2. Implement all TODO blocks in [stdio_mcp_client](agent/clients/stdio_mcp_client.py)
-3. Implement all TODO blocks in [dial_client](agent/clients/openai_client.py)
+3. Implement all TODO blocks in [openai_client](agent/clients/openai_client.py)
 4. Implement all TODO blocks in [conversation_manager](agent/conversation_manager.py)
 5. Write system prompt, at first it can be simple [prompts](agent/prompts.py)
 6. Implement all TODO blocks in [app](agent/app.py)
@@ -58,7 +58,7 @@ In this task you will need to implement an Agent with classical Tool use patten 
 │   ├── conversation_manager.py    ⚠️ TODO: implement logic
 │   └── prompts.py                 ⚠️ TODO: write prompt
 ├── docker-compose.yml             ✅ Complete
-└── index.html                     ⚠️ TODO: implement logic
+└── index.html                     ✅ Complete
 ```
 
 <img src="/flow_diagrams/general_flow.png" alt="General Flow Diagram" />
