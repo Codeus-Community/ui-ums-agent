@@ -16,7 +16,8 @@ In this task you will need to implement an Agent with classical Tool use patten 
 
 - **Python**: 3.11 or higher
 - **Dependencies**: Listed in `requirements.txt`
-- **OPENAI_API_KEY**
+- **API Access**: DIAL API key with appropriate permissions
+- **Network**: EPAM VPN connection for internal API access
 - Docker and Docker Compose
 
 ## Task
@@ -25,7 +26,7 @@ In this task you will need to implement an Agent with classical Tool use patten 
 
 1. Implement all TODO blocks in [http_mcp_client](agent/clients/http_mcp_client.py)
 2. Implement all TODO blocks in [stdio_mcp_client](agent/clients/stdio_mcp_client.py)
-3. Implement all TODO blocks in [dial_client](agent/clients/openai_client.py)
+3. Implement all TODO blocks in [openai_client_client](agent/clients/openai_client.py)
 4. Implement all TODO blocks in [conversation_manager](agent/conversation_manager.py)
 5. Write system prompt, at first it can be simple [prompts](agent/prompts.py)
 6. Implement all TODO blocks in [app](agent/app.py)
